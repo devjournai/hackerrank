@@ -1,0 +1,52 @@
+PROBLEM:
+--------
+In a single toss of 2 fair six-sided dice, find the probability that:
+1 The two dice show different values, and
+2 The sum of the two dice is exactly 6
+
+
+STEP 1: TOTAL POSSIBLE OUTCOMES
+------------------------------
+Each die has 6 faces.
+
+Total possible outcomes = 6 × 6 = 36
+
+
+STEP 2: OUTCOMES WHERE THE SUM IS 6
+----------------------------------
+Possible ordered pairs (Die 1, Die 2):
+
+(1, 5)
+(2, 4)
+(3, 3)
+(4, 2)
+(5, 1)
+
+Total outcomes with sum = 6 → 5
+
+
+STEP 3: OUTCOMES WHERE VALUES ARE DIFFERENT
+------------------------------------------
+The pair (3, 3) must be excluded because both dice show the same value.
+
+Valid favorable outcomes:
+
+(1, 5)
+(2, 4)
+(4, 2)
+(5, 1)
+
+Total favorable outcomes = 4
+
+
+STEP 4: CALCULATE PROBABILITY
+-----------------------------
+Probability
+= Favorable outcomes / Total outcomes
+= 4 / 36
+= 1 / 9
+
+
+FINAL ANSWER:
+-------------
+Probability = 1 / 9

@@ -1,0 +1,66 @@
+PROBLEM:
+----------------------------------
+There are three urns: X, Y, and Z.
+
+Urn X contains:
+- 4 red balls
+- 3 black balls
+Total balls = 7
+
+Urn Y contains:
+- 5 red balls
+- 4 black balls
+Total balls = 9
+
+Urn Z contains:
+- 4 red balls
+- 4 black balls
+Total balls = 8
+
+One ball is drawn from each urn.
+
+Find the probability that exactly 2 of the 3 balls drawn are red
+and exactly 1 ball is black.
+
+STEP 1: PROBABILITIES FOR EACH URN
+----------------------------------
+Urn X:
+P(Red)   = 4/7
+P(Black) = 3/7
+
+Urn Y:
+P(Red)   = 5/9
+P(Black) = 4/9
+
+Urn Z:
+P(Red)   = 4/8 = 1/2
+P(Black) = 4/8 = 1/2
+
+
+STEP 2: POSSIBLE VALID CASES
+---------------------------
+(Exactly 2 red balls and 1 black ball)
+
+Case 1:
+X = Black, Y = Red, Z = Red
+P = (3/7) × (5/9) × (1/2) = 15/126
+
+Case 2:
+X = Red, Y = Black, Z = Red
+P = (4/7) × (4/9) × (1/2) = 16/126
+
+Case 3:
+X = Red, Y = Red, Z = Black
+P = (4/7) × (5/9) × (1/2) = 20/126
+
+STEP 3: ADD ALL VALID PROBABILITIES
+----------------------------------
+Total Probability
+= 15/126 + 16/126 + 20/126 = 51/126
+
+Simplify:
+51/126 = 17/42
+
+FINAL ANSWER:
+----------------------------------
+Probability = 17/42

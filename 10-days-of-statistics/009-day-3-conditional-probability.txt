@@ -1,0 +1,48 @@
+PROBLEM:
+----------------------------------
+Suppose a family has 2 children.
+It is known that at least one of the children is a boy.
+
+Find the probability that both children are boys.
+
+STEP 1: LIST ALL POSSIBLE OUTCOMES
+----------------------------------
+For two children, the possible gender combinations are:
+
+BB  -> Boy, Boy
+BG  -> Boy, Girl
+GB  -> Girl, Boy
+GG  -> Girl, Girl
+
+STEP 2: APPLY THE GIVEN CONDITION
+----------------------------------
+We are told that one child is a boy.
+
+So we exclude the case where there are no boys:
+GG
+
+Remaining possible cases:
+BB
+BG
+GB
+
+Total valid cases = 3
+
+STEP 3: FAVORABLE OUTCOME
+----------------------------------
+We want both children to be boys.
+
+Favorable case:
+BB
+
+Total favorable cases = 1
+
+STEP 4: CALCULATE PROBABILITY
+----------------------------------
+Probability
+= Favorable cases / Total valid cases
+= 1 / 3
+
+FINAL ANSWER:
+----------------------------------
+Probability = 1 / 3

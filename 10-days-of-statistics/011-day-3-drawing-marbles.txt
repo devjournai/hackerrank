@@ -1,0 +1,33 @@
+PROBLEM:
+----------------------------------
+A bag contains:
+- 3 red marbles
+- 4 blue marbles
+
+Two marbles are drawn at random WITHOUT replacement.
+
+Given that the FIRST marble drawn is red,
+find the probability that the SECOND marble is blue.
+
+STEP 1: UNDERSTAND THE GIVEN CONDITION
+----------------------------------
+The first marble drawn is red.
+
+So after the first draw:
+- Red marbles remaining = 2
+- Blue marbles remaining = 4
+- Total marbles remaining = 6
+
+STEP 2: PROBABILITY OF SECOND MARBLE BEING BLUE
+----------------------------------
+Probability
+= Number of blue marbles remaining / Total marbles remaining
+= 4 / 6
+
+STEP 3: SIMPLIFY
+----------------------------------
+4 / 6 = 2 / 3
+
+FINAL ANSWER:
+----------------------------------
+Probability = 2 / 3
