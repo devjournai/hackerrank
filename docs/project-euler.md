@@ -215,9 +215,8 @@
 | 209  | [**Circular Logic**](../project-euler/209-circular-logic.js)                                                                                                                                                                         | ![Hard](https://img.shields.io/badge/-Hard-red)                |
 | 210  | [**Obtuse Angled Triangles**](../project-euler/210-obtuse-angled-triangles.js)                                                                                                                                                       | ![Medium](https://img.shields.io/badge/-Medium-yellow)         |
 
-
 ---
 
 [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2025 [Dev Journai](https://devjournai.com/)
+Copyright (c) 2026 [Dev Journai](https://devjournai.com/)

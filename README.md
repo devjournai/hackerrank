@@ -134,6 +134,6 @@ This project is licensed under the **MIT License**.
 
 ---
 
-Copyright (c) 2025 [Dev Journai](https://devjournai.com/)
+Copyright (c) 2026 [Dev Journai](https://devjournai.com/)
 
 ⭐ If you find this repository useful, consider giving it a star!

@@ -62,4 +62,4 @@
 
 [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2025 [Dev Journai](https://devjournai.com/)
+Copyright (c) 2026 [Dev Journai](https://devjournai.com/)
